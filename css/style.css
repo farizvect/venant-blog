@@ -1,0 +1,207 @@
+:root {
+    --bg: #1d1e20;
+    --fg: #a9a9b3;
+    --primary: #c9cacc;
+    --secondary: #a9a9b3;
+    --border: #2a2b2d;
+    --link: #8ca8e6;
+    --btn-bg: #2a2b2d;
+    --btn-hover: #333437;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.header {
+    background-color: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#menu li a {
+    color: var(--secondary);
+    font-size: 1rem;
+}
+
+#menu li a:hover {
+    color: var(--primary);
+}
+
+.main {
+    flex: 1;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.profile h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile span {
+    font-size: 1.2rem;
+    color: var(--secondary);
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    background-color: var(--btn-bg);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: var(--btn-hover);
+    text-decoration: none;
+}
+
+.post-entry {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-entry h2 {
+    margin: 0 0 0.5rem 0;
+}
+
+.entry-header a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.entry-header a:hover {
+    text-decoration: underline;
+}
+
+.entry-content {
+    color: var(--secondary);
+}
+
+.entry-footer {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-top: 1rem;
+}
+
+.post-single .post-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+}
+
+.post-content {
+    font-size: 1.1rem;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+}
+
+.post-content code {
+    font-family: var(--font-mono);
+    background-color: var(--border);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.post-content pre {
+    background-color: var(--border);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+}
+
+.post-content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    border-top: 1px solid var(--border);
+    color: var(--secondary);
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: var(--secondary);
+}
+
+.footer a:hover {
+    color: var(--primary);
+}
