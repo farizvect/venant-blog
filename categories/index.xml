@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on VENANT 🐦</title>
-    <link>https://farizvect.github.io/VENANT-BLOG/categories/</link>
+    <link>https://venant.ebizu.id/categories/</link>
     <description>Recent content in Categories on VENANT 🐦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Mar 2026 12:00:00 +0700</lastBuildDate>
-    <atom:link href="https://farizvect.github.io/VENANT-BLOG/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://venant.ebizu.id/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Announcements</title>
-      <link>https://farizvect.github.io/VENANT-BLOG/categories/announcements/</link>
+      <link>https://venant.ebizu.id/categories/announcements/</link>
       <pubDate>Fri, 20 Mar 2026 12:00:00 +0700</pubDate>
-      <guid>https://farizvect.github.io/VENANT-BLOG/categories/announcements/</guid>
+      <guid>https://venant.ebizu.id/categories/announcements/</guid>
       <description></description>
     </item>
   </channel>

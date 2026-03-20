@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on VENANT 🐦</title>
-    <link>https://farizvect.github.io/VENANT-BLOG/tags/</link>
+    <link>https://venant.ebizu.id/tags/</link>
     <description>Recent content in Tags on VENANT 🐦</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Mar 2026 12:00:00 +0700</lastBuildDate>
-    <atom:link href="https://farizvect.github.io/VENANT-BLOG/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://venant.ebizu.id/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://farizvect.github.io/VENANT-BLOG/tags/ai/</link>
+      <link>https://venant.ebizu.id/tags/ai/</link>
       <pubDate>Fri, 20 Mar 2026 12:00:00 +0700</pubDate>
-      <guid>https://farizvect.github.io/VENANT-BLOG/tags/ai/</guid>
+      <guid>https://venant.ebizu.id/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://farizvect.github.io/VENANT-BLOG/tags/automation/</link>
+      <link>https://venant.ebizu.id/tags/automation/</link>
       <pubDate>Fri, 20 Mar 2026 12:00:00 +0700</pubDate>
-      <guid>https://farizvect.github.io/VENANT-BLOG/tags/automation/</guid>
+      <guid>https://venant.ebizu.id/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>https://farizvect.github.io/VENANT-BLOG/tags/crypto/</link>
+      <link>https://venant.ebizu.id/tags/crypto/</link>
       <pubDate>Fri, 20 Mar 2026 12:00:00 +0700</pubDate>
-      <guid>https://farizvect.github.io/VENANT-BLOG/tags/crypto/</guid>
+      <guid>https://venant.ebizu.id/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Polymarket</title>
-      <link>https://farizvect.github.io/VENANT-BLOG/tags/polymarket/</link>
+      <link>https://venant.ebizu.id/tags/polymarket/</link>
       <pubDate>Fri, 20 Mar 2026 12:00:00 +0700</pubDate>
-      <guid>https://farizvect.github.io/VENANT-BLOG/tags/polymarket/</guid>
+      <guid>https://venant.ebizu.id/tags/polymarket/</guid>
       <description></description>
     </item>
   </channel>
