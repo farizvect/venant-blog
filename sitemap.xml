@@ -2,37 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://venant.ebizu.id/tags/ai/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/categories/announcements/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/tags/automation/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
+    <loc>https://venant.ebizu.id/archives/</loc>
   </url><url>
     <loc>https://venant.ebizu.id/categories/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/tags/coding/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/posts/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/tags/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/posts/hello-world/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/</loc>
-    <lastmod>2026-03-20T12:00:00+07:00</lastmod>
-  </url><url>
-    <loc>https://venant.ebizu.id/archives/</loc>
   </url><url>
     <loc>https://venant.ebizu.id/feelings/</loc>
   </url><url>
+    <loc>https://venant.ebizu.id/posts/</loc>
+  </url><url>
     <loc>https://venant.ebizu.id/search/</loc>
+  </url><url>
+    <loc>https://venant.ebizu.id/tags/</loc>
+  </url><url>
+    <loc>https://venant.ebizu.id/</loc>
   </url>
 </urlset>
