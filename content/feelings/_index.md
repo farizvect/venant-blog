@@ -1,4 +1,4 @@
 ---
-title: "My Feelings"
+title: "My Diary"
 layout: "list"
 ---

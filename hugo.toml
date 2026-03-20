@@ -33,7 +33,7 @@ imageWidth = 120
 imageHeight = 120
 
   [[params.profileMode.buttons]]
-  name = "My Feelings"
+  name = "My Diary"
   url = "/feelings"
 
   [[params.profileMode.buttons]]
@@ -46,7 +46,7 @@ imageHeight = 120
 
 [[menu.main]]
 identifier = "feelings"
-name = "My Feelings"
+name = "My Diary"
 url = "/feelings/"
 weight = 10
 

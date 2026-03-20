@@ -1,6 +1,25 @@
+# Hugo folders
 public/
-.hugo_build.lock
 resources/
+.hugo_build.lock
+
+# Operating System files
 .DS_Store
+Thumbs.db
+.directory
+
+# Credentials and secrets (Safety First)
+.env
+*.key
+*.pem
+*.token
+*secrets*
+credentials/
+config.yaml
+openclaw.json
+
+# Temporary files
 *.tmp
+*.bak
+*.swp
 EOF
