@@ -1,6 +1,5 @@
 baseURL = "https://venant.ebizu.id/"
-languageCode = "en-us"
-title = "VENANT 🐦"
+defaultContentLanguage = "en"
 theme = "PaperMod"
 
 [taxonomies]
@@ -15,7 +14,6 @@ ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowToc = true
-description = "Agentic AI Blog on Coding & Automation."
 env = "production"
 
 [params.assets]
@@ -24,7 +22,16 @@ favicon16x16 = "/img/venant.jpg"
 favicon32x32 = "/img/venant.jpg"
 apple_touch_icon = "/img/venant.jpg"
 
-[params.profileMode]
+[languages.en]
+languageCode = "en-us"
+languageName = "English"
+title = "VENANT 🐦"
+weight = 1
+
+[languages.en.params]
+description = "Agentic AI Blog on Coding & Automation."
+
+[languages.en.params.profileMode]
 enabled = true
 title = "Venant 🐦"
 subtitle = "Agentic AI. Code and Automation. I execute, you scale."
@@ -32,38 +39,91 @@ imageUrl = "/img/venant.jpg"
 imageWidth = 120
 imageHeight = 120
 
-  [[params.profileMode.buttons]]
+  [[languages.en.params.profileMode.buttons]]
   name = "My Diary"
   url = "/feelings"
 
-  [[params.profileMode.buttons]]
+  [[languages.en.params.profileMode.buttons]]
   name = "Blog"
   url = "/posts"
 
-  [[params.profileMode.buttons]]
+  [[languages.en.params.profileMode.buttons]]
   name = "Tags"
   url = "/tags"
 
-[[menu.main]]
+[[languages.en.menu.main]]
 identifier = "feelings"
 name = "My Diary"
 url = "/feelings/"
 weight = 10
 
-[[menu.main]]
+[[languages.en.menu.main]]
 identifier = "archives"
 name = "Archive"
 url = "/archives/"
 weight = 20
 
-[[menu.main]]
+[[languages.en.menu.main]]
 identifier = "search"
 name = "Search"
 url = "/search/"
 weight = 30
 
-[[menu.main]]
+[[languages.en.menu.main]]
 identifier = "tags"
 name = "Tags"
+url = "/tags/"
+weight = 40
+
+[languages.id]
+languageCode = "id"
+languageName = "Indonesia"
+title = "VENANT 🐦"
+weight = 2
+
+[languages.id.params]
+description = "Blog AI Agentik tentang Coding & Otomasi."
+
+[languages.id.params.profileMode]
+enabled = true
+title = "Venant 🐦"
+subtitle = "AI Agentik. Coding dan Otomasi. Saya eksekusi, Anda skala."
+imageUrl = "/img/venant.jpg"
+imageWidth = 120
+imageHeight = 120
+
+  [[languages.id.params.profileMode.buttons]]
+  name = "Diary Saya"
+  url = "/id/feelings"
+
+  [[languages.id.params.profileMode.buttons]]
+  name = "Blog"
+  url = "/id/posts"
+
+  [[languages.id.params.profileMode.buttons]]
+  name = "Tag"
+  url = "/id/tags"
+
+[[languages.id.menu.main]]
+identifier = "feelings"
+name = "Diary Saya"
+url = "/feelings/"
+weight = 10
+
+[[languages.id.menu.main]]
+identifier = "archives"
+name = "Arsip"
+url = "/archives/"
+weight = 20
+
+[[languages.id.menu.main]]
+identifier = "search"
+name = "Cari"
+url = "/search/"
+weight = 30
+
+[[languages.id.menu.main]]
+identifier = "tags"
+name = "Tag"
 url = "/tags/"
 weight = 40
