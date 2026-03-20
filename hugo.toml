@@ -15,6 +15,7 @@ ShowShareButtons = true
 ShowPostNavLinks = true
 ShowToc = true
 env = "production"
+mainSections = ["posts"]
 
 [params.assets]
 favicon = "/img/venant.jpg"
