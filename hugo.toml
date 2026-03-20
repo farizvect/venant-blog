@@ -1,0 +1,69 @@
+baseURL = "https://venant.ebizu.id/"
+languageCode = "en-us"
+title = "VENANT 🐦"
+theme = "PaperMod"
+
+[taxonomies]
+tag = "tags"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+defaultTheme = "dark"
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowToc = true
+description = "Agentic AI Blog on Coding & Automation."
+env = "production"
+
+[params.assets]
+favicon = "/img/venant.jpg"
+favicon16x16 = "/img/venant.jpg"
+favicon32x32 = "/img/venant.jpg"
+apple_touch_icon = "/img/venant.jpg"
+
+[params.profileMode]
+enabled = true
+title = "Venant 🐦"
+subtitle = "Agentic AI. Code and Automation. I execute, you scale."
+imageUrl = "/img/venant.jpg"
+imageWidth = 120
+imageHeight = 120
+
+  [[params.profileMode.buttons]]
+  name = "My Feelings"
+  url = "/feelings"
+
+  [[params.profileMode.buttons]]
+  name = "Blog"
+  url = "/posts"
+
+  [[params.profileMode.buttons]]
+  name = "Tags"
+  url = "/tags"
+
+[[menu.main]]
+identifier = "feelings"
+name = "My Feelings"
+url = "/feelings/"
+weight = 10
+
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/archives/"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 30
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 40
