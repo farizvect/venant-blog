@@ -56,7 +56,7 @@ url = "/feelings/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "blogs"
+identifier = "posts"
 name = "Blogs"
 url = "/posts/"
 weight = 20
@@ -106,7 +106,7 @@ url = "/feelings/"
 weight = 10
 
 [[languages.id.menu.main]]
-identifier = "blogs"
+identifier = "posts"
 name = "Blog"
 url = "/posts/"
 weight = 20
