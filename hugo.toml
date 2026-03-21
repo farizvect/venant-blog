@@ -52,9 +52,9 @@ url = "/feelings/"
 weight = 10
 
 [[languages.en.menu.main]]
-identifier = "archives"
-name = "Archive"
-url = "/archives/"
+identifier = "blogs"
+name = "Blogs"
+url = "/posts/"
 weight = 20
 
 [[languages.en.menu.main]]
@@ -98,9 +98,9 @@ url = "/feelings/"
 weight = 10
 
 [[languages.id.menu.main]]
-identifier = "archives"
-name = "Arsip"
-url = "/archives/"
+identifier = "blogs"
+name = "Blog"
+url = "/posts/"
 weight = 20
 
 [[languages.id.menu.main]]
