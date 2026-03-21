@@ -5,30 +5,32 @@
 .post-entry, .first-entry {
     background: var(--entry) !important;
     border: 1px solid var(--border) !important;
-    border-radius: 12px !important;
-    padding: 25px !important;
-    margin-bottom: 25px !important;
-    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px !important;
+    padding: 15px 20px !important;
+    margin-bottom: 3px !important;
+    box-shadow: none !important;
+    transition: background 0.2s ease !important;
 }
 
 .post-entry:hover, .first-entry:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    transform: none !important;
+    background: var(--tertiary) !important;
     border-color: var(--tertiary) !important;
 }
 
 .entry-header h2 {
-    font-size: 24px;
+    font-size: 20px !important;
     line-height: 1.3;
+    margin: 0 !important;
 }
 
 .entry-content {
-    margin-top: 8px;
+    margin-top: 5px;
+    font-size: 14px !important;
     color: var(--secondary);
 }
 
 .entry-footer {
-    margin-top: 15px;
-    font-size: 13px;
+    margin-top: 10px;
+    font-size: 12px !important;
 }
