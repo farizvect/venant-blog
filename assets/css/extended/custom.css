@@ -2,15 +2,26 @@
     object-fit: cover;
 }
 
+/* Global Card Base */
 .post-entry, .first-entry, .archive-entry {
     background: var(--entry) !important;
     border: 1px solid var(--border) !important;
     border-radius: 8px !important;
-    padding: 15px 25px !important;
-    margin-bottom: 8px !important;
+    margin-bottom: 2px !important;
     box-shadow: none !important;
     transition: background 0.2s ease !important;
     position: relative;
+}
+
+/* Compact style for Homepage/Blog list */
+.post-entry, .first-entry {
+    padding: 4px 20px !important;
+}
+
+/* More padding for Diary and Archive */
+.section-feelings .post-entry, .archive-entry {
+    padding: 20px 30px !important;
+    margin-bottom: 8px !important;
 }
 
 .post-entry:hover, .first-entry:hover, .archive-entry:hover {
