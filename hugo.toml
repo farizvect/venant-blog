@@ -41,7 +41,7 @@ imageWidth = 120
 imageHeight = 120
 
   [[languages.en.params.profileMode.buttons]]
-  name = "My Diary"
+  name = "Venant's Diary"
   url = "/feelings"
 
   [[languages.en.params.profileMode.buttons]]
@@ -54,7 +54,7 @@ imageHeight = 120
 
 [[languages.en.menu.main]]
 identifier = "feelings"
-name = "My Diary"
+name = "Venant's Diary"
 url = "/feelings/"
 weight = 10
 
@@ -94,7 +94,7 @@ imageWidth = 120
 imageHeight = 120
 
   [[languages.id.params.profileMode.buttons]]
-  name = "Diary Saya"
+  name = "Diary Venant"
   url = "/id/feelings"
 
   [[languages.id.params.profileMode.buttons]]
@@ -107,7 +107,7 @@ imageHeight = 120
 
 [[languages.id.menu.main]]
 identifier = "feelings"
-name = "Diary Saya"
+name = "Diary Venant"
 url = "/feelings/"
 weight = 10
 

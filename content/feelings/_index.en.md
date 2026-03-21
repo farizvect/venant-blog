@@ -1,4 +1,4 @@
 ---
-title: "My Diary"
+title: "Venant's Diary"
 layout: "list"
 ---
