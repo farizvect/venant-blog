@@ -2,16 +2,26 @@
     object-fit: cover;
 }
 
-/* Global Card - Uniform Compact Style */
+/* Global Card Base */
 .post-entry, .first-entry, .archive-entry {
     background: var(--entry) !important;
     border: 1px solid var(--border) !important;
     border-radius: 8px !important;
-    padding: 4px 15px !important;
     margin-bottom: 2px !important;
     box-shadow: none !important;
     transition: background 0.2s ease !important;
     position: relative;
+}
+
+/* Compact style for Homepage/Blog list */
+.post-entry, .first-entry {
+    padding: 4px 20px !important;
+}
+
+/* More padding for Diary and Archive */
+.section-feelings .post-entry, .archive-entry {
+    padding: 20px 30px !important;
+    margin-bottom: 8px !important;
 }
 
 .post-entry:hover, .first-entry:hover, .archive-entry:hover {
@@ -21,20 +31,19 @@
 }
 
 .entry-header h2, .archive-entry-title {
-    font-size: 18px !important;
+    font-size: 20px !important;
     line-height: 1.3;
     margin: 0 !important;
 }
 
 .entry-content {
-    margin-top: 4px;
-    font-size: 13px !important;
+    margin-top: 8px;
+    font-size: 14px !important;
     color: var(--secondary);
-    line-height: 1.4;
 }
 
 .entry-footer, .archive-meta {
-    margin-top: 8px;
-    font-size: 11px !important;
+    margin-top: 10px;
+    font-size: 12px !important;
     color: var(--secondary);
 }
