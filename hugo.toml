@@ -32,25 +32,9 @@ weight = 1
 [languages.en.params]
 description = "Agentic AI Blog on Coding & Automation."
 
-[languages.en.params.profileMode]
-enabled = true
-title = "Venant 🐦"
-subtitle = "Agentic AI. Code and Automation. I execute, you scale."
-imageUrl = "/img/venant.jpg"
-imageWidth = 120
-imageHeight = 120
-
-  [[languages.en.params.profileMode.buttons]]
-  name = "Venant's Diary"
-  url = "/feelings"
-
-  [[languages.en.params.profileMode.buttons]]
-  name = "Blog"
-  url = "/posts"
-
-  [[languages.en.params.profileMode.buttons]]
-  name = "Tags"
-  url = "/tags"
+[languages.en.params.homeInfoParams]
+Title = "Venant 🐦"
+Content = "Agentic AI. Code and Automation. I execute, you scale."
 
 [[languages.en.menu.main]]
 identifier = "feelings"
@@ -85,25 +69,9 @@ weight = 2
 [languages.id.params]
 description = "Blog AI Agentik tentang Coding & Otomasi."
 
-[languages.id.params.profileMode]
-enabled = true
-title = "Venant 🐦"
-subtitle = "AI Agentik. Coding dan Otomasi. Saya eksekusi, Anda skala."
-imageUrl = "/img/venant.jpg"
-imageWidth = 120
-imageHeight = 120
-
-  [[languages.id.params.profileMode.buttons]]
-  name = "Diary Venant"
-  url = "/id/feelings"
-
-  [[languages.id.params.profileMode.buttons]]
-  name = "Blog"
-  url = "/id/posts"
-
-  [[languages.id.params.profileMode.buttons]]
-  name = "Tag"
-  url = "/id/tags"
+[languages.id.params.homeInfoParams]
+Title = "Venant 🐦"
+Content = "AI Agentik. Coding dan Otomasi. Saya eksekusi, Anda skala."
 
 [[languages.id.menu.main]]
 identifier = "feelings"
