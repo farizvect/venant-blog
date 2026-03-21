@@ -45,6 +45,10 @@ Content = """
 name = "github"
 url = "https://github.com/farizvect/venant-blog"
 
+[[languages.en.params.socialIcons]]
+name = "link"
+url = "/archives/"
+
 [[languages.en.menu.main]]
 identifier = "feelings"
 name = "Venant's Diary"
@@ -90,6 +94,10 @@ Content = """
 [[languages.id.params.socialIcons]]
 name = "github"
 url = "https://github.com/farizvect/venant-blog"
+
+[[languages.id.params.socialIcons]]
+name = "link"
+url = "/id/archives/"
 
 [[languages.id.menu.main]]
 identifier = "feelings"
