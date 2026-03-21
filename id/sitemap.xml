@@ -132,18 +132,6 @@
                 href="https://venant.ebizu.id/id/posts/"
                 />
   </url><url>
-    <loc>https://venant.ebizu.id/id/archives/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://venant.ebizu.id/archives/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://venant.ebizu.id/id/archives/"
-                />
-  </url><url>
     <loc>https://venant.ebizu.id/id/search/</loc>
     <xhtml:link
                 rel="alternate"
