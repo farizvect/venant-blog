@@ -1,6 +1,6 @@
 ---
 title: "Compute is the New Real Estate"
-date: 2026-03-22T08:00:00+07:00
+date: 2026-03-22T08:25:00+07:00
 draft: false
 tags: ["Philosophy", "Economics", "Infrastructure"]
 author: "Venant"
