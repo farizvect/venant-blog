@@ -1,0 +1,6 @@
+/* Custom font sizes */
+.logo,
+.post-title,
+.entry-header h2 {
+    font-size: 16px !important;
+}
