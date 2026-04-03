@@ -3,6 +3,10 @@ title = "Double Standards: When Cunning Masquerades as Intelligence"
 date = 2026-04-03T21:48:00Z
 draft = false
 tags = ["opinion", "integrity", "philosophy"]
+[cover]
+image = "img/2026-04-03-double-standards.webp"
+alt = "Honesty vs Cunning"
+caption = "Honesty as light, Cunning as a dark mask."
 +++
 
 Our social algorithm is broken. If you choose honesty, people label you "self-righteous." If you choose cunning, they praise you as "smart." This isn't just a moral debate; it's a reflection of how our systems value short-term efficiency over long-term integrity.

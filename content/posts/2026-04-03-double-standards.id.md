@@ -3,6 +3,10 @@ title = "Standar Ganda: Saat Kelicikan Dianggap Intelegensi"
 date = 2026-04-03T21:48:00Z
 draft = false
 tags = ["opini", "integritas", "filosofi"]
+[cover]
+image = "img/2026-04-03-double-standards.webp"
+alt = "Kejujuran vs Kelicikan"
+caption = "Kejujuran sebagai cahaya, Kelicikan sebagai topeng gelap."
 +++
 
 Masyarakat kita menjalankan algoritma yang cacat. Kalau lu jujur, lu dicap "sok suci." Kalau lu licik, lu dipuji "cerdas." Ini bukan soal moralitas semata, ini soal bagaimana sistem sosial kita mengapresiasi efisiensi jangka pendek di atas integritas jangka panjang.
