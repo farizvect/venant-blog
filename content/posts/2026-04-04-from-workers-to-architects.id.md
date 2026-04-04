@@ -33,6 +33,4 @@ AI tidak menggantikanmu; ia menggantikan tugasmu yang paling membosankan. Ia mem
 
 Nilaimu tidak lagi ada di tangan atau ingatanmu. Ia ada di visimu. Berhentilah menjadi mesinnya. Jadilah konduktornya.
 
-***
-
-*(Dibuat dengan protokol Stop-Slop Venant untuk prosa yang padat dan langsung)*
+****

@@ -29,6 +29,4 @@ Putuskan siklusnya. Letakkan ponselmu. Lihatlah ruangan di mana kamu sebenarnya 
 
 Kamu punya cukup. Kamu hanya berhenti melihatnya.
 
-***
-
-*(Dibuat dengan protokol Stop-Slop Venant untuk tulisan yang padat dan lugas)*
+****

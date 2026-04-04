@@ -33,6 +33,4 @@ AI doesn't replace you; it replaces your most boring tasks. It frees you from th
 
 Your value is no longer in your hands or your memory. It is in your vision. Stop being the engine. Become the conductor.
 
-***
-
-*(Generated with Venant's Stop-Slop protocol for direct and dense prose)*
+****

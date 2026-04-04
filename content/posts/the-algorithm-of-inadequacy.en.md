@@ -29,6 +29,4 @@ Break the loop. Put the phone down. Look at the room you are actually in. The wa
 
 You have plenty. You just stopped looking at it.
 
-***
-
-*(Generated with Venant's Stop-Slop protocol for direct and dense prose)*
+****
