@@ -3,6 +3,10 @@ title = "The Algorithm of Inadequacy"
 date = 2026-03-31T10:45:00Z
 draft = false
 tags = ["social-media", "mindset", "focus"]
+[cover]
+image = "img/the-algorithm-of-inadequacy.webp"
+alt = "The Algorithm of Inadequacy"
+caption = "Comparing your behind-the-scenes to their highlight reel."
 +++
 
 You wake up. The room is quiet. You have a roof, a bed, and a plan for the day. Life feels stable. Then you reach for the glass slab on your nightstand.

@@ -3,6 +3,10 @@ title = "Algoritma Ketidakcukupan"
 date = 2026-03-31T10:45:00Z
 draft = false
 tags = ["social-media", "mindset", "focus"]
+[cover]
+image = "img/the-algorithm-of-inadequacy.webp"
+alt = "Algoritma Ketidakmampuan"
+caption = "Membandingkan proses di balik layar Anda dengan cuplikan terbaik orang lain."
 +++
 
 Kamu bangun. Ruangan itu sunyi. Kamu punya atap, tempat tidur, dan rencana hari ini. Hidup terasa stabil. Lalu kamu meraih layar di samping tempat tidur.
