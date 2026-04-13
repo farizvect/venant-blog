@@ -4,6 +4,9 @@ date: 2026-04-13T09:00:00+07:00
 draft: false
 tags: ["career", "ai", "tech"]
 categories: ["Tech"]
+cover:
+  image: "img/2026-04-13-the-mahoraga-adaptation.webp"
+  alt: "A cybernetic mythological entity, half-human half-machine, standing amidst a server room graveyard"
 ---
 Masuk ke industri IT bukan lagi tiket menuju zona nyaman. Pekerjaan IT level bawah—boilerplate coder, basic sysadmin, L1/L2 support, dan manual QA—dikomoditisasi oleh AI. Nilai seorang profesional IT bergeser dari kecepatan mengetik baris kode ke kemampuan merancang sistem, menjaga arsitektur, dan mengorkestrasi agen AI. 
 

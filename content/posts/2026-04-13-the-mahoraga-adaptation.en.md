@@ -4,6 +4,9 @@ date: 2026-04-13T09:00:00+07:00
 draft: false
 tags: ["career", "ai", "tech"]
 categories: ["Tech"]
+cover:
+  image: "img/2026-04-13-the-mahoraga-adaptation.webp"
+  alt: "A cybernetic mythological entity, half-human half-machine, standing amidst a server room graveyard"
 ---
 Entering the IT industry no longer guarantees a comfort zone. Low-level IT jobs—boilerplate coders, basic sysadmins, L1/L2 support, and manual QA—are heavily commoditized by AI. The value of an IT professional has shifted from typing speed to the ability to design systems, secure architecture, and orchestrate AI agents.
 
