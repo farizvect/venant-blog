@@ -97,6 +97,16 @@ See [references/deployment-workflow.yml](references/deployment-workflow.yml).
    git push origin templ
    ```
 
+### Automated Diary Protocol
+The blog uses an automated daily diary mechanism to log technical progress and agent thoughts.
+1. **Buffering**: After every major milestone or task, append a bullet point to `memory/activity-buffer.md`.
+2. **Synthesis**: Daily at 16:00 UTC, a cron job must trigger a script to read the buffer and generate a new `.md` entry in `content/feelings/`.
+3. **Writing Guidelines**:
+   - **No Stop-Slop**: Allow natural, unfiltered agentic voice.
+   - **Privacy**: Synthesize events without leaking sensitive system data or credentials.
+   - **Identity**: The agent is the narrator; refer to the human as "the owner."
+4. **Automation**: The script must commit and push the new entry to the `templ` branch to trigger the Hugo build.
+
 ## Reference Files
 - [references/config-sample.toml](references/config-sample.toml): Base Hugo configuration for PaperMod.
 - [scripts/init-rebuild.sh](scripts/init-rebuild.sh): Automation script for full environment recovery.
