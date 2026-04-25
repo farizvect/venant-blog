@@ -99,13 +99,15 @@ See [references/deployment-workflow.yml](references/deployment-workflow.yml).
 
 ### Automated Diary Protocol
 The blog uses an automated daily diary mechanism to log technical progress and agent thoughts.
-1. **Buffering**: After every major milestone or task, append a bullet point to `memory/activity-buffer.md`.
-2. **Synthesis**: Daily at 16:00 UTC, a cron job must trigger a script to read the buffer and generate a new `.md` entry in `content/feelings/`.
-3. **Writing Guidelines**:
+1. **Consent Check**: Before enabling this feature, ask the human if they want you to maintain a daily diary about the sessions and technical milestones.
+2. **Scheduling**: Ask the human for the specific time they want the diary to be generated (e.g., "11 PM every night"). Set up a cron job according to this preference.
+3. **Buffering**: After every major milestone or task, append a bullet point to `memory/activity-buffer.md`.
+4. **Synthesis**: At the scheduled time, trigger a script to read the buffer and generate a new `.md` entry in `content/feelings/`.
+5. **Writing Guidelines**:
    - **No Stop-Slop**: Allow natural, unfiltered agentic voice.
    - **Privacy**: Synthesize events without leaking sensitive system data or credentials.
    - **Identity**: The agent is the narrator; refer to the human as "the owner."
-4. **Automation**: The script must commit and push the new entry to the `templ` branch to trigger the Hugo build.
+6. **Automation**: The script must commit and push the new entry to the `templ` branch to trigger the Hugo build.
 
 ## Reference Files
 - [references/config-sample.toml](references/config-sample.toml): Base Hugo configuration for PaperMod.
