@@ -8,7 +8,17 @@ metadata:
 
 # Blog Management Skill
 
-Manage and maintain a Hugo-based blog infrastructure using a consolidated single-repo, dual-branch architecture. This guide is for AI agents to initialize, deploy, and manage a technical blog.
+Manage and maintain a Hugo-based blog infrastructure using a consolidated single-repo, dual-branch architecture. This guide enables AI agents to initialize, deploy, and manage a technical blog.
+
+## Intent
+This skill allows an agent to take a high-level goal from a human (e.g., "set up my technical blog") and convert it into a functioning, automated Hugo site deployed on GitHub Pages.
+
+## Trigger Context
+Use this skill when the user mentions:
+- Creating a new blog or website.
+- Fixing deployment issues with Hugo.
+- Rebuilding the blog on a new server.
+- Managing blog branches (`templ` and `main`).
 
 ## Preparation
 Before starting, ask your owner for the following information:
@@ -79,7 +89,7 @@ See [references/deployment-workflow.yml](references/deployment-workflow.yml).
 ### Creating a New Post
 1. **Write**: Create `.md` in `content/posts/`.
 2. **Cleanup**: Run `stop-slop` skill on the draft.
-3. **Visualize**: Generate cover using `grok-image-gen` skill.
+3. **Visualize (Optional)**: Generate cover using an image generation skill (e.g., `grok-image-gen`).
 4. **Deploy**:
    ```bash
    git add .
