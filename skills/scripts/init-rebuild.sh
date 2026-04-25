@@ -1,12 +1,13 @@
 #!/bin/bash
-# Venant Blog - Disaster Recovery / Rebuild Script
+# Hugo Blog - Disaster Recovery / Rebuild Script
 
 set -e
 
-REPO_URL="https://github.com/farizvect/venant-blog"
-TARGET_DIR="$HOME/VENANT-BLOG"
+# Ask owner for repo details if not configured
+REPO_URL="<YOUR-REPO-URL>"
+TARGET_DIR="$HOME/<BLOG-DIR>"
 
-echo "🐦 Starting Venant Blog environment rebuild..."
+echo "Starting blog environment rebuild..."
 
 # 1. Check Hugo
 if ! command -v hugo &> /dev/null; then

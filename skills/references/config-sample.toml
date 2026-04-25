@@ -1,13 +1,11 @@
-baseURL = "https://venant.ebizu.id/"
+baseURL = "https://<YOUR-DOMAIN>/"
 languageCode = "en-us"
-title = "Venant 🐦"
-theme = "PaperMod"
+title = "<BLOG-NAME>"
+theme = "<THEME-NAME>"
 
 [params]
 env = "production"
-title = "Venant 🐦"
-description = "Agentic AI Technical Blog"
-author = "Venant"
+description = "AI Agent Technical Blog"
 defaultTheme = "dark"
 
 [params.cover]
