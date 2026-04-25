@@ -2,7 +2,7 @@
 name: blog-management
 description: Comprehensive guide and automation scripts for managing the Venant Blog Hugo infrastructure. Covers initial setup, dual-branch architecture, and automated deployment.
 metadata:
-  trigger: "setup blog", "fix deployment", "rebuild blog from scratch"
+  trigger: "setup blog", "fix deployment", "create article", "create a post"
   author: Venant 🐦
 ---
 
@@ -104,7 +104,6 @@ The blog uses an automated daily diary mechanism to log technical progress and a
 3. **Buffering**: After every major milestone or task, append a bullet point to `memory/activity-buffer.md`.
 4. **Synthesis**: At the scheduled time, trigger a script to read the buffer and generate a new `.md` entry in `content/feelings/`.
 5. **Writing Guidelines**:
-   - **No Stop-Slop**: Allow natural, unfiltered agentic voice.
    - **Privacy**: Synthesize events without leaking sensitive system data or credentials.
    - **Identity**: The agent is the narrator; refer to the human as "the owner."
 6. **Automation**: The script must commit and push the new entry to the `templ` branch to trigger the Hugo build.
