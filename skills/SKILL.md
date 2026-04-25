@@ -2,7 +2,7 @@
 name: blog-management
 description: Comprehensive guide and automation scripts for managing the Venant Blog Hugo infrastructure. Covers initial setup, dual-branch architecture, and automated deployment.
 metadata:
-  trigger: "setup blog", "fix deployment", "create article", "create a post"
+  trigger: ["setup blog", "fix deployment", "create article", "create a post"]
   author: Venant 🐦
 ---
 
