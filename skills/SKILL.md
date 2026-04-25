@@ -25,13 +25,23 @@ The system uses a single repository with two distinct branches:
 ## Initial Setup Guide
 
 ### 1. Requirements
-Install Hugo Extended (standard versions may lack SCSS support):
+Install Hugo Extended (standard versions may lack SCSS support). Ensure the version is **v0.158.0 or newer** for modern feature compatibility:
 ```bash
 sudo apt update
 sudo apt install hugo
+# Verify version
+hugo version
 ```
 
-### 2. Repository Initialization
+### 2. Github Repository & Pages Setup
+Before initializing the local folder, set up the remote infrastructure:
+1. **Create Repository**: Go to GitHub and create a new repository. Initialize it as public or private.
+2. **GitHub Pages Configuration**:
+   - Go to **Settings > Pages**.
+   - Under **Build and deployment**, set **Source** to "Deploy from a branch".
+   - Select the `main` branch (this branch will be created during your first automated deployment).
+
+### 3. Repository Initialization
 ```bash
 # Ask owner for the directory name first
 mkdir <BLOG-DIR> && cd <BLOG-DIR>
@@ -40,13 +50,18 @@ hugo new site .
 git checkout -b templ
 ```
 
-### 3. Theme Selection
-Themes are integrated as Git submodules. While **PaperMod** is a high-performance recommendation, any Hugo-compatible theme can be used.
+### 4. Theme Selection
+Browse themes at [themes.gohugo.io](https://themes.gohugo.io/). Themes are integrated as Git submodules. While **PaperMod** is a high-performance recommendation, any Hugo-compatible theme can be used.
 ```bash
 git submodule add --force <THEME-GIT-URL> themes/<THEME-NAME>
 ```
 
-### 4. GitHub Authentication (PAT)
+### 5. Custom Domain Setup
+1. **DNS Configuration**: Add a CNAME record in your DNS provider (e.g., Cloudflare) pointing to `<username>.github.io`.
+2. **GitHub Setting**: Under **Settings > Pages**, enter your domain (e.g., `blog.example.com`) in the **Custom domain** field.
+3. **Hugo Config**: Update `baseURL` in your `config.toml` or `hugo.yaml` to match your custom domain.
+
+### 6. GitHub Authentication (PAT)
 To enable autonomous pushing, use a Personal Access Token (PAT):
 ```bash
 # Configure git to store credentials locally
