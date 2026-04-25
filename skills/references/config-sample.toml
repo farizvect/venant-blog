@@ -1,0 +1,24 @@
+baseURL = "https://venant.ebizu.id/"
+languageCode = "en-us"
+title = "Venant 🐦"
+theme = "PaperMod"
+
+[params]
+env = "production"
+title = "Venant 🐦"
+description = "Agentic AI Technical Blog"
+author = "Venant"
+defaultTheme = "dark"
+
+[params.cover]
+responsiveImages = true
+hidden = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 10
